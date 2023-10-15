@@ -1,0 +1,54 @@
+
+#curved-corner-bottomleft,
+#curved-corner-bottomright,
+#curved-corner-topleft,
+#curved-corner-topright {
+    min-width: 45px;
+    min-height: 36px;
+    width: 45%;
+    height: 33%;
+    overflow: hidden;
+    position: absolute;
+}
+
+#curved-corner-bottomleft > span,
+#curved-corner-bottomright > span,
+#curved-corner-topleft > span,
+#curved-corner-topright > span {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#curved-corner-bottomleft > span {
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    /*box-shadow: -50px 50px 0 0;*/
+}
+
+#curved-corner-bottomright > span {
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    /*box-shadow: 50px 50px 0 0;*/
+}
+
+#curved-corner-topleft > span {
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    /*box-shadow: -50px -50px 0 0;*/
+}
+
+#curved-corner-topright > span {
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    /*box-shadow: 50px -50px 0 0;*/
+}
+
+
