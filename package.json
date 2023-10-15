@@ -7,8 +7,8 @@
     "s": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview" ,
-    "pull" : "git pull origin main"
+    "preview": "vite preview",
+    "pull": "git pull origin main"
   },
   "dependencies": {
     "axios": "^1.5.1",
